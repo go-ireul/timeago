@@ -104,7 +104,7 @@ var Chinese = Config{
 		FormatPeriod{Year, "1 年", "%d 年"},
 	},
 
-	Zero: "刚刚",
+	Zero: "小于 1 秒",
 
 	Max:           73 * time.Hour,
 	DefaultLayout: "2006-01-02",
