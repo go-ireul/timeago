@@ -92,8 +92,8 @@ var Portuguese = Config{
 var Chinese = Config{
 	PastPrefix:   "",
 	PastSuffix:   "前",
-	FuturePrefix: "于 ",
-	FutureSuffix: "",
+	FuturePrefix: "",
+	FutureSuffix: "后",
 
 	Periods: []FormatPeriod{
 		FormatPeriod{time.Second, "1 秒", "%d 秒"},
@@ -104,7 +104,7 @@ var Chinese = Config{
 		FormatPeriod{Year, "1 年", "%d 年"},
 	},
 
-	Zero: "1 秒",
+	Zero: "刚刚",
 
 	Max:           73 * time.Hour,
 	DefaultLayout: "2006-01-02",
